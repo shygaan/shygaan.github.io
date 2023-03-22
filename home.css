@@ -31,7 +31,7 @@ hr {
 }
 
 .basmala h1 {
-    font-family: 'Cinzel', 'Texturina', 'Kreon', serif;
+    font-family: 'Scheherazade New', serif;
 
 }
 
@@ -42,6 +42,10 @@ hr {
     font-size: 100%;
 }
 
+.basmala h1 a {
+    color: white;
+    text-decoration: none;
+}
 
 .basmala h2 {
     color: white;
