@@ -31,6 +31,12 @@ hr {
     max-width: 800px;
 }
 
+em {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 130%;
+}
+
 .basmala h1 {
     font-family: 'Scheherazade New', serif;
 
@@ -108,6 +114,7 @@ footer {
 footer ul li {
     display: inline-block;
 }
+
 
 footer a {
     display: inline-block;
