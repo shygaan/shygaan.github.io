@@ -1,94 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>The Arcane Library of Xircon</title>
-<link rel="icon" type="image/x-icon" href="img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/3fdec2ae9f.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-<link rel="stylesheet" href="home.css">
-<meta content="The Arcane Library of Xircon" property="og:title" />
-<meta content="Repository of ancient knowledge and hidden secrets." property="og:description" />
-<meta content="https://xircon.xyz" property="og:url" />
-<meta content="https://cdn.discordapp.com/attachments/1087695750684749904/1088031391930920991/DALLE_2023-01-25_22.24.49_-_realistic_oil_painting_of_a_wizard_exploring_antarctica.png" property="og:image" />
-<meta content="#f5deb3" data-react-helmet="true" name="theme-color" />
+    <title>The Arcane Library of Xircon</title>
+    <link rel="icon" type="image/x-icon" href="assets/ico/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3fdec2ae9f.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <meta content="The Arcane Library of Xircon" property="og:title" />
+    <meta content="Repository of ancient knowledge and hidden secrets." property="og:description" />
+    <meta content="https://xircon.xyz" property="og:url" />
+    <meta content="assets/ico/16916-48x48x0.png" property="og:image" />
+    <meta content="#663399" data-react-helmet="true" name="theme-color" />
 </head>
 
-    <body>
-        <div class="navbar">
-            <nav>
-                    <ul>
-                        <li><a href="https://xircon.xyz/home"><i class="fa fa-fw fa-home"></i> Home</a></li>
-                        <li><a href="https://xircon.xyz/codex"><i class="fa-solid fa-scroll"></i> Codex Xirconia</a></li>
-                        <li>
-                            <button onclick="myFunction(this)" class="dropbtn"><i class="fa-solid fa-landmark"></i> Museum</button>
-                            <div id="myDropdown1" class="dropdown-content">
-                              <a href="https://xircon.xyz/archive">The Archive</a>
-                              <a href="https://xircon.xyz/art">Art</a>
-                              <a href="https://xircon.xyz/music">Music</a>
-                              <a href="https://xircon.xyz/nature">Nature</a>
-                            </div>
-                        </li>
-                        <li><a href="https://xircon.xyz/experiments"><i class="fa-solid fa-globe"></i> Experiments</a></li>
-                        <li><a href="https://xircon.xyz/about"><i class="fa fa-fw fa-user"></i> About</a></li>
-                        <li>
-                            <button onclick="myFunction(this)" class="dropbtn"><i class="fa-solid fa-puzzle-piece"></i> Misc</button>
-                            <div id="myDropdown2" class="dropdown-content">
-                              <a href="https://xircon.xyz/links">Links</a>
-                              <a href="https://xircon.xyz/contact">Contact Me</a>
-                              <a href="https://xircon.xyz/resources">Resources</a>
-                            </div>
-                        </li>
-
-
-                    </ul>
-            </nav>
-        </div>
-
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="https://xircon.xyz/home"><i class="fa fa-fw
+                                fa-home"></i> Home</a></li>
+                <li><a href="https://xircon.xyz/construction"><i class="fa-solid
+                                fa-scroll"></i> Codex Xirconia</a></li>
+                <li>
+                    <button onclick="myFunction(this)" class="dropbtn"><i class="fa-solid fa-landmark"></i>
+                        Museum</button>
+                    <div id="myDropdown1" class="dropdown-content">
+                        <a href="https://xircon.xyz/construction">The Archive</a>
+                        <a href="https://xircon.xyz/construction">Art</a>
+                        <a href="https://xircon.xyz/construction">Music</a>
+                        <a href="https://xircon.xyz/construction">Nature</a>
+                    </div>
+                </li>
+                <li><a href="https://xircon.xyz/construction"><i class="fa-solid fa-globe"></i> Experiments</a></li>
+                <li>
+                    <button onclick="myFunction(this)" class="dropbtn"><i class="fa-solid fa-fw fa-user"></i>
+                        About</button>
+                    <div id="myDropdown2" class="dropdown-content">
+                        <a href="https://xircon.xyz/about/library">The Library</a>
+                        <a href="https://xircon.xyz/about/scrollkeeper">The Scrollkeeper</a>
+                    </div>
+                </li>
+                <li>
+                    <button onclick="myFunction(this)" class="dropbtn"><i class="fa-solid fa-puzzle-piece"></i>
+                        Misc</button>
+                    <div id="myDropdown3" class="dropdown-content">
+                        <a href="https://xircon.xyz/construction">Links</a>
+                        <a href="https://xircon.xyz/construction">Contact Me</a>
+                        <a href="https://xircon.xyz/construction">Resources</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <main>
         <div class="basmala">
-            <h1 title="Bi-smi llāhi r-raḥmāni r-raḥīm"><a target="_blank" href="https://islamqa.info/en/answers/21722/what-is-the-meaning-of-the-basmalah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</a></h1>
+            <h1 title="Bi-smi llāhi r-raḥmāni r-raḥīm"><a target="_blank"
+                    href="https://islamqa.info/en/answers/21722/what-is-the-meaning-of-the-basmalah">بِسْمِ
+                    اللهِ الرَّحْمٰنِ الرَّحِيْمِ</a></h1>
             <h2>In the name of Allah, the Most Gracious, the Most Merciful.</h2>
             <hr>
-                <figure>
-                    <img src="img/Author.png" alt="Image of the Scrollkeeper in a gasmask and keffiyeh." title="The Scrollkeeper">
-                    <figcaption>The Scrollkeeper</figcaption>
-                </figure>
-                
-            <p>Welcome, Seeker, to the grand halls of the Library of Xircon. 
-                The books here hold secrets and knowledge of the ages, and it is my honor to guide you on your journey.
+            <figure>
+                <img src="/assets/img/Author.png" alt="Image of the
+                        Scrollkeeper in a gasmask and keffiyeh." title="The
+                        Scrollkeeper">
+                <figcaption>The Scrollkeeper</figcaption>
+            </figure>
+
+            <p>Welcome, Seeker, to the grand halls of the Library of Xircon.
+                The books here hold secrets and knowledge of the ages, and
+                it is my honor to guide you on your journey.
                 I am the Scrollkeeper, creator of this repository. <br> <br>
-                When I created the Library, I did so out of a desire to return to the Golden Age of the Internet: when the Web served to share knowledge, discuss one's passions and reach out to fellow users. It was lawless but united - a civilized anarchy. The Internet has since been homogenized and commercialized to no end;
-                corporations have seeded every page with advertisements galore, with the sole intent of manipulating users and milking them of their money.
-                The few bastions of what once was are drowned out by the highest bidders in the Great SEO-cean. 
-                What was once a vast, flowery meadow has been razed and paved over - replaced with virtual billboards designed to hyperstimulate the mind and poison the soul.
-                Perhaps, one day, the Internet will blossom once more. Until then, we wait.
+                When I created the Library, I did so out of a desire to
+                return to the Golden Age of the Internet: when the Web
+                served to share knowledge, discuss one's passions and reach
+                out to fellow users. It was lawless but united - a civilized
+                anarchy. The Internet has since been homogenized and
+                commercialized to no end;
+                corporations have seeded every page with advertisements
+                galore, with the sole intent of manipulating users and
+                milking them of their money.
+                The few bastions of what once was are drowned out by the
+                highest bidders in the Great SEO-cean.
+                What was once a vast, flowery meadow has been razed and
+                paved over - replaced with virtual billboards designed to
+                hyperstimulate the mind and poison the soul.
+                Perhaps, one day, the Internet will blossom once more. Until
+                then, we wait.
                 <br><br>
 
-                Now, Seeker, the choice is yours. Will you be searching for a specific piece of knowledge, or would you prefer to delve into the unknown and explore the shelves at your leisure? 
-                The decision is yours, and I am here to guide you in either direction.
+                Now, Seeker, the choice is yours. Will you be searching for
+                a specific piece of knowledge, or would you prefer to delve
+                into the unknown and explore the shelves at your leisure?
+                The decision is yours, and I am here to guide you in either
+                direction.
             </p>
             <hr style="margin-bottom: 0px;">
         </div>
         <div class="footer">
             <footer>
-                    <ul>
-                        <li>xircon, 2023</li>
-                        <li><a href="#">to top</a></li>
-                    </ul>
+                <p>
+                    xircon,
+                    2023&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="email.html">e-mail</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">to
+                        top</a>
+                </p>
             </footer>
         </div>
     </main>
 
-    </body>
+</body>
+
 </html>
