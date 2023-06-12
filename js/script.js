@@ -53,3 +53,7 @@ function randomImage() {
 
 // call the randomImage function on page load
 window.addEventListener('load', randomImage);
+
+function setBackgroundByTime() {
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+}

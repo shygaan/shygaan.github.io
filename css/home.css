@@ -4,7 +4,8 @@ body {
     color: wheat;
     background-repeat: repeat;
     background-size: 30%;
-    background-color: #0A0E14;
+    background: rgb(255,183,0);
+    background: linear-gradient(90deg, #ffb700 0%, rgba(170,0,0,1) 63%);
 
 }
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="localTime"></h2>
+<h2 id="sunrise"></h2>
+<h2 id="sunset"></h2>
+
+<script>
+// Get local time
+let date = new Date();
+document.getElementById('localTime').innerHTML = "Local Time: " + date;
+
+// Get user's location
+navigator.geolocation.getCurrentPosition((position) => {
+    let lat = position.coords.latitude;
+    let lng = position.coords.longitude;
+
+    // Use the Sunrise-Sunset API to get sunrise and sunset times
+    fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&formatted=0`)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('sunrise').innerHTML = "Sunrise: " + new Date(data.results.sunrise).toLocaleString();
+            document.getElementById('sunset').innerHTML = "Sunset: " + new Date(data.results.sunset).toLocaleString();
+        });
+});
+</script>
+
+</body>
+</html>
