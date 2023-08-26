@@ -4,8 +4,7 @@ body {
     color: wheat;
     background-repeat: repeat;
     background-size: 30%;
-    background: rgb(255,183,0);
-    background: linear-gradient(90deg, #ffb700 0%, rgba(170,0,0,1) 63%);
+    background: #1d575b;
 
 }
 
@@ -128,7 +127,7 @@ footer a:hover {
 
 
 nav {
-    background-color: #0A0E14;
+    background-color: #194441;
     text-align: center;
 
 }
@@ -163,8 +162,9 @@ nav ul li a:hover {
 
 .dropbtn {
     background-color: #0A0E14;
-    color: white;
-    padding: 16px;
+    color: #ede8e4;
+    padding: 20px 0px 20px 0px;
+    min-width: 140px;
     font-size: 17px;
     border: none;
     cursor: pointer;
@@ -173,6 +173,7 @@ nav ul li a:hover {
 /* Dropdown button on hover & focus */
 .dropbtn:hover {
     color: #931621;
+
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -189,27 +190,39 @@ nav ul li a:hover {
     min-width: 140px;
     box-shadow: 0px 8px 10px 0px black;
     z-index: 1;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    color: whitesmoke;
+    
 
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: white;
+    color: whitesmoke;
+
     padding: 8px 0px;
     text-decoration: none;
     display: block;
+    
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #0A0E14;
+    color: whitesmoke;
+
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
     display: block;
+}
+
+.dropbtn.active {
+    background-color: #931621; /* replace with your preferred color */
+  }
+  
+.dropbtn.active:hover {
+    color: #0A0E14;
 }
