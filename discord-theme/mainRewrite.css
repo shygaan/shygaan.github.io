@@ -379,17 +379,3 @@ body {
   line-height: 16px;
   color: rgb(var(--rgb-highlight));
 }
-
-/*Home Button*/
-
-.homeIcon-r0w4ny path {fill: transparent}
-
-.homeIcon-r0w4ny {
-
-background: url('https://upload.wikimedia.org/wikipedia/commons/c/c7/Islamic_Swastika.svg') center/cover no-repeat;
-
-min-width: 60px;
-
-min-height: 60px;
-
-}
