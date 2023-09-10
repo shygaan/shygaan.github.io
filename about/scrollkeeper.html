@@ -6,19 +6,12 @@
     <link rel="icon" type="image/x-icon" href="/assets/ico/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3fdec2ae9f.js" crossorigin="anonymous"></script>
-    <script src="/js/script.js"></script>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/scrollkeeper.css">
+
     <meta content="The Arcane Library of Xircon" property="og:title" />
     <meta content="About the Scrollkeeper" property="og:description" />
     <meta content="https://xircon.xyz" property="og:url" />
@@ -27,7 +20,9 @@
 </head>
 
 <body>
-    <div style="background: #0A0E14; height: 100vh; width: 100vw; overflow: hidden;" id=bigDiv></div>
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+      </div>
     <div class="navbar">
         <nav>
             <ul>
@@ -68,24 +63,23 @@
 
     <main>
 
-        <div class="title">
-            <h1 title="The Scrollkeeper"><i class="fa-solid fa-book" style="color: white;font-size: 30px;"></i> The
+        <div class="main">
+            <h1><i class="fa-solid fa-book" style="color: var(--text);font-size: 30px;"></i> The
                 Scrollkeeper</h1>
             <h2>Lover of books, music, and all things mystical</h2>
             <hr>
             <a href="https://xircon.xyz/assets/img/The Bookworm - Carl Spitzweg.jpg">
             <figure id="skFig">
-                <img onload='document.body.removeChild(document.getElementById("bigDiv"));'
-                    src="/assets/img/The Bookworm - Carl Spitzweg.jpg" alt="The
+                <img src="/assets/img/The Bookworm - Carl Spitzweg.jpg" alt="The
                         Bookworm (1850), by Carl Spitzweg" title="The Bookworm
                         (1850), by Carl Spitzweg">
                 <figcaption>The Bookworm (1850), by Carl Spitzweg</figcaption>
             </figure>
             </a>
             <p>
-                I am a man of diverse interests and expertise. My passions
+                I am a man of diverse interests. My passions
                 span the spectrum from natural history to the fine arts, and
-                I have spent my life cultivating a deep appreciation for a
+                I have spent my (rather short) life cultivating a deep appreciation for a
                 wide variety of subjects. From a young age, I have had an
                 unquenchable curiosity and a voracious appetite for
                 knowledge, which I have honed through extensive reading,
@@ -99,20 +93,18 @@
                 design by the hands of an omnipotent, eternal entity beyond
                 our comprehension: Allah, or as some may call Him, God. I
                 believe that the Qur'an was revealed to mankind through the
-                angel Jibreel, and that it carries the one Truth. The
-                preservation of religion precedes the preservation of all
-                other things in life.
+                angel Jibreel, and that it carries the one Truth; the final 
+                revelation that abrogated those that came before.
                 <br><br>
-                Returning to my interests - they do not stop there. I am an
-                accomplished programmer and artist with a keen eye for
-                detail and a deep appreciation of the beauty of the world
-                surrounding us. I am equally at home in the domain of
-                philosophy and theology, where I have spent many hours
-                contemplating the nature of the Divine and the purpose of
-                life. I am an avid reader and writer, with a passion for
-                poetry and literature, and I greatly respect the power of
-                words to inspire people and instill goodness in their
-                hearts.
+                Returning to my interests - they do not stop there. I am a 
+                programmer and artist with a deep appreciation of 
+                the beauty of the world surrounding us. I am equally at home 
+                in the domain of philosophy and theology, where I have spent 
+                many hours contemplating the nature of the Divine and the 
+                purpose of life. I am an avid reader and writer, with a 
+                passion for poetry and literature, and I greatly respect 
+                the power of words to inspire people and instill goodness 
+                in their hearts.
                 <br><br>
 
                 In addition to my intellectual pursuits, I have a love for
@@ -125,7 +117,7 @@
 
                 Throughout my life, I have been deeply commited to the
                 preservation and spread of knowledge. It is for this reason
-                that I have created this Library as an archive of data that
+                that I have created this library as an archive of data that
                 can be accessed and learned from by all, in the hopes that
                 it will help restore the humanity of the Internet. I long
                 for a return to the Golden Age, where the web served as a
@@ -136,13 +128,13 @@
                 designed to manipulate and exploit users.
                 <br><br>
 
-                As I reflect on my life's journey and the many paths that I
+                Though I am but a young man, as I reflect on my life's journey thus far and the many paths that I
                 have travelled, I am struck by the profound
                 interconnectedness of things. The natural world, the divine,
                 and humanity itself are all intertwined in ways that are
                 beautifully complex. And despite the many challenges that we
                 face as a global community, I remain hopeful and committed
-                to the pursuit of knowledge and understanding.
+                to the pursuit of knowledge and understanding. 
                 <br><br>
 
                 In a world that often seems filled with division and strife,
@@ -174,16 +166,17 @@
         </div>
         <div class="footer">
             <footer>
-                <p>
-                    xircon,
-                    2023&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
-                        href="https://xircon.xyz/email">e-mail</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">to
-                        top</a>
-                </p>
+              <p>
+                <a id="footer-name">ⅯⅯⅩⅩⅢ</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+                  href="https://xircon.xyz/contact">contact</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">to
+                  top</a>
+              </p>
             </footer>
-        </div>
+          </div>
     </main>
-
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3fdec2ae9f.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

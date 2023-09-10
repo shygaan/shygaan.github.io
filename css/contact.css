@@ -1,0 +1,36 @@
+.main h1 a {
+    color: var(--text-heading);
+    text-decoration: none;
+}
+  
+
+#basmala {
+    font-family: "Scheherazade New", serif;
+    color: var(--text-heading);
+  
+}
+
+
+.main figure img {
+    width: 130px;
+    box-shadow: 5px 5px 5px black;
+    border: 5px outset var(--border-color);
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+
+  }
+
+  .list-container {
+    display: flex; /* Use flexbox for two side-by-side sections */
+  }
+
+  .list-section {
+    flex: 1; /* Each section takes half the width */
+    padding: 20px; /* Add some spacing between sections */
+    text-align:center; /* Justify text to the left */
+
+  }

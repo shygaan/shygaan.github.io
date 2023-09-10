@@ -1,0 +1,57 @@
+@import 'variables.css';
+
+html {
+    background-image: url(/assets/img/landing_bg.jpg);
+    background-size: cover;
+    font-family: var(--font);
+}
+
+.btn-main {
+    color: #DAA520;
+    font-weight: 600;
+    font-size: 21px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.btn-main:hover {
+    font-size: 25px;
+}
+
+.jumbotron {
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-transform: uppercase;
+    filter: drop-shadow(10px 10px 10px black);
+
+
+}
+
+body {
+    color: wheat;
+    text-shadow: 5px 5px 3px #0A0E14;
+
+}
+
+p {
+    font-size: 150%;
+    text-align: center;
+    transform: translate(0, -15px);
+    padding-bottom: 15px;
+    filter: drop-shadow(10px 10px 10px black);
+    max-width: 1000px; /* Your max-width value */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Center vertically */
+}

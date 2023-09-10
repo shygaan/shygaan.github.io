@@ -2,27 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>The Arcane Library of Xircon</title>
+    <title>The Astralogue</title>
     <link rel="icon" type="image/x-icon" href="assets/ico/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3fdec2ae9f.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/construction.css">
 
-    <meta content="The Arcane Library of Xircon" property="og:title" />
+    <meta content="The Astralogue" property="og:title" />
     <meta content="Repository of ancient knowledge and hidden secrets." property="og:description" />
     <meta content="https://xircon.xyz" property="og:url" />
     <meta content="assets/ico/16916-48x48x0.png" property="og:image" />
@@ -30,7 +22,9 @@
 </head>
 
 <body>
-    <div style="background: #0A0E14; height: 10000px; width: 10000px; overflow: hidden;" id=bigDiv></div>
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
     <div class="navbar">
         <nav>
             <ul>
@@ -76,27 +70,32 @@
     <main>
         <div class="main">
             <h1 title=""><i class="fa-solid
-                        fa-person-digging" style="color: whitesmoke;font-size:
-                        100px;"></i> Coming Soon!</h1>
+                        fa-person-digging" style="color: var(--text);font-size:
+                        100px;"></i></h1>
             <h2>This area is currently under construction.</h2>
             <hr>
             <figure>
-                <img onload='document.body.removeChild(document.getElementById("bigDiv"));' id="randomImage" src=""
-                    alt="Random Image">
+                <img id="randomImage" src="" alt="Random Image">
                 <figcaption id="randomCaption"></figcaption>
             </figure>
             <hr style="margin-bottom: 0px;">
         </div>
         <div class="footer">
             <footer>
-                <p>
-                    xircon, 2023&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
-                        href="https://xircon.xyz/email">e-mail</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">to
-                        top</a>
-                </p>
+              <p>
+                <a id="footer-name">ⅯⅯⅩⅩⅢ</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a
+                  href="https://xircon.xyz/contact">contact</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">to
+                  top</a>
+              </p>
             </footer>
-        </div>
+          </div>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="js/construction.js"></script>
+    <script src="https://kit.fontawesome.com/3fdec2ae9f.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
 
 </body>
 
