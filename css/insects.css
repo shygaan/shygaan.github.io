@@ -1,0 +1,64 @@
+ /* Container for the table of contents */
+ .table-of-contents {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    list-style: none; /* Remove bullets and numbering */
+
+}
+
+/* Style for section links */
+.section-link {
+    list-style: none; /* Remove bullets and numbering */
+    margin-left: 0; /* Remove default margin */
+    padding-left: 0; /* Remove default padding */
+    display: block;
+}
+
+/* Style for sub-section links */
+.subsection-link {
+    list-style: none; /* Remove bullets and numbering */
+    margin-left: 0; /* Remove default margin */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 20px;
+    display: block;
+}
+
+/* Counter for section numbers */
+.section-counter {
+    counter-reset: section;
+}
+
+/* Counter for subsection numbers */
+.subsection-counter {
+    counter-reset: subsection;
+}
+
+/* Style for section and subsection numbering */
+.section-link::before {
+    counter-increment: section;
+    content: counter(section) ". ";
+}
+
+.subsection-link::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}
+        
+#skFig img {
+    width: 220px;
+    box-shadow: 5px 5px 5px black;
+    border: 5px outset var(--border-color);
+
+}
+
+#skFig {
+    margin: 13px 15px 0px 0px;
+    float: left;
+}
+
+#skFig figcaption {
+    font-style: italic;
+    font-size: 70%;
+}
